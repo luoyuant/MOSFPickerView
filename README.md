@@ -1,4 +1,6 @@
 # MOSFPickerView
+https://github.com/memoriesofsnows/MOSFPickerView/blob/master/images/pickerView.gif
+
 1.初始化
 
 datePickerView = MOFSDatePickerView();
