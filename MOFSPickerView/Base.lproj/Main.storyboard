@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MOFSPickerView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" tag="1001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请选择日期" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OsM-cO-Mki">
+                                <rect key="frame" x="15" y="64" width="345" height="21"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="aeX-14-klc" appends="YES" id="GwT-HD-Ufr"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" tag="1002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请选择职业" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DlI-Ox-bxh">
+                                <rect key="frame" x="15" y="100" width="345" height="21"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="eOL-6u-qhF" appends="YES" id="ZYm-2m-r3N"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" tag="1003" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请选择体型" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0h-52-YM6">
+                                <rect key="frame" x="15" y="136" width="345" height="21"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="fLl-4n-cay" appends="YES" id="zPG-7E-veA"/>
+                                </connections>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OsM-cO-Mki" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="44" id="MsC-91-fRH"/>
+                            <constraint firstItem="DlI-Ox-bxh" firstAttribute="top" secondItem="OsM-cO-Mki" secondAttribute="bottom" constant="15" id="bay-PG-w4d"/>
+                            <constraint firstItem="L0h-52-YM6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="ged-el-FeN"/>
+                            <constraint firstAttribute="trailing" secondItem="OsM-cO-Mki" secondAttribute="trailing" constant="15" id="rma-Bc-S3a"/>
+                            <constraint firstItem="L0h-52-YM6" firstAttribute="top" secondItem="DlI-Ox-bxh" secondAttribute="bottom" constant="15" id="uFb-lN-msZ"/>
+                            <constraint firstAttribute="trailing" secondItem="DlI-Ox-bxh" secondAttribute="trailing" constant="15" id="utM-yt-OfE"/>
+                            <constraint firstItem="OsM-cO-Mki" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="x1f-GU-auH"/>
+                            <constraint firstAttribute="trailing" secondItem="L0h-52-YM6" secondAttribute="trailing" constant="15" id="y8N-gg-8Tf"/>
+                            <constraint firstItem="DlI-Ox-bxh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="yls-IS-0vk"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="dateLb" destination="OsM-cO-Mki" id="Na2-z1-qfU"/>
+                        <outlet property="jobLb" destination="DlI-Ox-bxh" id="MIT-7q-xaw"/>
+                        <outlet property="typeLb" destination="L0h-52-YM6" id="pqf-mb-WZO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="aeX-14-klc">
+                    <connections>
+                        <action selector="dateSelectAction:" destination="BYZ-38-t0r" id="t4u-ht-H1j"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="eOL-6u-qhF">
+                    <connections>
+                        <action selector="dateSelectAction:" destination="BYZ-38-t0r" id="ExA-LG-PGd"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="fLl-4n-cay">
+                    <connections>
+                        <action selector="dateSelectAction:" destination="BYZ-38-t0r" id="eKE-RX-2Nf"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+</document>

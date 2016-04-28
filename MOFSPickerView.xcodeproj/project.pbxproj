@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF3D7C961CD25B0E0063ADC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D7C951CD25B0E0063ADC8 /* AppDelegate.swift */; };
+		BF3D7C981CD25B0E0063ADC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D7C971CD25B0E0063ADC8 /* ViewController.swift */; };
+		BF3D7C9B1CD25B0E0063ADC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3D7C991CD25B0E0063ADC8 /* Main.storyboard */; };
+		BF3D7C9D1CD25B0E0063ADC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3D7C9C1CD25B0E0063ADC8 /* Assets.xcassets */; };
+		BF3D7CA01CD25B0E0063ADC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3D7C9E1CD25B0E0063ADC8 /* LaunchScreen.storyboard */; };
+		BF3D7CAB1CD25B0E0063ADC8 /* MOFSPickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D7CAA1CD25B0E0063ADC8 /* MOFSPickerViewTests.swift */; };
+		BF3D7CB61CD25B0E0063ADC8 /* MOFSPickerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D7CB51CD25B0E0063ADC8 /* MOFSPickerViewUITests.swift */; };
+		BF3D7CC61CD25B4D0063ADC8 /* MOFSPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D7CC41CD25B4D0063ADC8 /* MOFSPickerView.swift */; };
+		BF3D7CC71CD25B4D0063ADC8 /* MOFSDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D7CC51CD25B4D0063ADC8 /* MOFSDatePickerView.swift */; };
+		BF3D7CC91CD25B7A0063ADC8 /* SwiftColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D7CC81CD25B7A0063ADC8 /* SwiftColors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF3D7CA71CD25B0E0063ADC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF3D7C8A1CD25B0E0063ADC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF3D7C911CD25B0E0063ADC8;
+			remoteInfo = MOFSPickerView;
+		};
+		BF3D7CB21CD25B0E0063ADC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF3D7C8A1CD25B0E0063ADC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF3D7C911CD25B0E0063ADC8;
+			remoteInfo = MOFSPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF3D7C921CD25B0E0063ADC8 /* MOFSPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOFSPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3D7C951CD25B0E0063ADC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF3D7C971CD25B0E0063ADC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF3D7C9A1CD25B0E0063ADC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF3D7C9C1CD25B0E0063ADC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF3D7C9F1CD25B0E0063ADC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF3D7CA11CD25B0E0063ADC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3D7CA61CD25B0E0063ADC8 /* MOFSPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOFSPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3D7CAA1CD25B0E0063ADC8 /* MOFSPickerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOFSPickerViewTests.swift; sourceTree = "<group>"; };
+		BF3D7CAC1CD25B0E0063ADC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3D7CB11CD25B0E0063ADC8 /* MOFSPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOFSPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3D7CB51CD25B0E0063ADC8 /* MOFSPickerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOFSPickerViewUITests.swift; sourceTree = "<group>"; };
+		BF3D7CB71CD25B0E0063ADC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3D7CC41CD25B4D0063ADC8 /* MOFSPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MOFSPickerView.swift; sourceTree = "<group>"; };
+		BF3D7CC51CD25B4D0063ADC8 /* MOFSDatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MOFSDatePickerView.swift; sourceTree = "<group>"; };
+		BF3D7CC81CD25B7A0063ADC8 /* SwiftColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftColors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF3D7C8F1CD25B0E0063ADC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3D7CA31CD25B0E0063ADC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3D7CAE1CD25B0E0063ADC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF3D7C891CD25B0E0063ADC8 = {
+			isa = PBXGroup;
+			children = (
+				BF3D7C941CD25B0E0063ADC8 /* MOFSPickerView */,
+				BF3D7CA91CD25B0E0063ADC8 /* MOFSPickerViewTests */,
+				BF3D7CB41CD25B0E0063ADC8 /* MOFSPickerViewUITests */,
+				BF3D7C931CD25B0E0063ADC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF3D7C931CD25B0E0063ADC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF3D7C921CD25B0E0063ADC8 /* MOFSPickerView.app */,
+				BF3D7CA61CD25B0E0063ADC8 /* MOFSPickerViewTests.xctest */,
+				BF3D7CB11CD25B0E0063ADC8 /* MOFSPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF3D7C941CD25B0E0063ADC8 /* MOFSPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				BF3D7CC31CD25B380063ADC8 /* Source */,
+				BF3D7C951CD25B0E0063ADC8 /* AppDelegate.swift */,
+				BF3D7C971CD25B0E0063ADC8 /* ViewController.swift */,
+				BF3D7C991CD25B0E0063ADC8 /* Main.storyboard */,
+				BF3D7C9C1CD25B0E0063ADC8 /* Assets.xcassets */,
+				BF3D7C9E1CD25B0E0063ADC8 /* LaunchScreen.storyboard */,
+				BF3D7CA11CD25B0E0063ADC8 /* Info.plist */,
+			);
+			path = MOFSPickerView;
+			sourceTree = "<group>";
+		};
+		BF3D7CA91CD25B0E0063ADC8 /* MOFSPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF3D7CAA1CD25B0E0063ADC8 /* MOFSPickerViewTests.swift */,
+				BF3D7CAC1CD25B0E0063ADC8 /* Info.plist */,
+			);
+			path = MOFSPickerViewTests;
+			sourceTree = "<group>";
+		};
+		BF3D7CB41CD25B0E0063ADC8 /* MOFSPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF3D7CB51CD25B0E0063ADC8 /* MOFSPickerViewUITests.swift */,
+				BF3D7CB71CD25B0E0063ADC8 /* Info.plist */,
+			);
+			path = MOFSPickerViewUITests;
+			sourceTree = "<group>";
+		};
+		BF3D7CC31CD25B380063ADC8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BF3D7CC81CD25B7A0063ADC8 /* SwiftColors.swift */,
+				BF3D7CC41CD25B4D0063ADC8 /* MOFSPickerView.swift */,
+				BF3D7CC51CD25B4D0063ADC8 /* MOFSDatePickerView.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF3D7C911CD25B0E0063ADC8 /* MOFSPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3D7CBA1CD25B0E0063ADC8 /* Build configuration list for PBXNativeTarget "MOFSPickerView" */;
+			buildPhases = (
+				BF3D7C8E1CD25B0E0063ADC8 /* Sources */,
+				BF3D7C8F1CD25B0E0063ADC8 /* Frameworks */,
+				BF3D7C901CD25B0E0063ADC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOFSPickerView;
+			productName = MOFSPickerView;
+			productReference = BF3D7C921CD25B0E0063ADC8 /* MOFSPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF3D7CA51CD25B0E0063ADC8 /* MOFSPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3D7CBD1CD25B0E0063ADC8 /* Build configuration list for PBXNativeTarget "MOFSPickerViewTests" */;
+			buildPhases = (
+				BF3D7CA21CD25B0E0063ADC8 /* Sources */,
+				BF3D7CA31CD25B0E0063ADC8 /* Frameworks */,
+				BF3D7CA41CD25B0E0063ADC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF3D7CA81CD25B0E0063ADC8 /* PBXTargetDependency */,
+			);
+			name = MOFSPickerViewTests;
+			productName = MOFSPickerViewTests;
+			productReference = BF3D7CA61CD25B0E0063ADC8 /* MOFSPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF3D7CB01CD25B0E0063ADC8 /* MOFSPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3D7CC01CD25B0E0063ADC8 /* Build configuration list for PBXNativeTarget "MOFSPickerViewUITests" */;
+			buildPhases = (
+				BF3D7CAD1CD25B0E0063ADC8 /* Sources */,
+				BF3D7CAE1CD25B0E0063ADC8 /* Frameworks */,
+				BF3D7CAF1CD25B0E0063ADC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF3D7CB31CD25B0E0063ADC8 /* PBXTargetDependency */,
+			);
+			name = MOFSPickerViewUITests;
+			productName = MOFSPickerViewUITests;
+			productReference = BF3D7CB11CD25B0E0063ADC8 /* MOFSPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF3D7C8A1CD25B0E0063ADC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = luoyuan;
+				TargetAttributes = {
+					BF3D7C911CD25B0E0063ADC8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BF3D7CA51CD25B0E0063ADC8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BF3D7C911CD25B0E0063ADC8;
+					};
+					BF3D7CB01CD25B0E0063ADC8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BF3D7C911CD25B0E0063ADC8;
+					};
+				};
+			};
+			buildConfigurationList = BF3D7C8D1CD25B0E0063ADC8 /* Build configuration list for PBXProject "MOFSPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF3D7C891CD25B0E0063ADC8;
+			productRefGroup = BF3D7C931CD25B0E0063ADC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF3D7C911CD25B0E0063ADC8 /* MOFSPickerView */,
+				BF3D7CA51CD25B0E0063ADC8 /* MOFSPickerViewTests */,
+				BF3D7CB01CD25B0E0063ADC8 /* MOFSPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF3D7C901CD25B0E0063ADC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3D7CA01CD25B0E0063ADC8 /* LaunchScreen.storyboard in Resources */,
+				BF3D7C9D1CD25B0E0063ADC8 /* Assets.xcassets in Resources */,
+				BF3D7C9B1CD25B0E0063ADC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3D7CA41CD25B0E0063ADC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3D7CAF1CD25B0E0063ADC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF3D7C8E1CD25B0E0063ADC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3D7C981CD25B0E0063ADC8 /* ViewController.swift in Sources */,
+				BF3D7C961CD25B0E0063ADC8 /* AppDelegate.swift in Sources */,
+				BF3D7CC61CD25B4D0063ADC8 /* MOFSPickerView.swift in Sources */,
+				BF3D7CC71CD25B4D0063ADC8 /* MOFSDatePickerView.swift in Sources */,
+				BF3D7CC91CD25B7A0063ADC8 /* SwiftColors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3D7CA21CD25B0E0063ADC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3D7CAB1CD25B0E0063ADC8 /* MOFSPickerViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3D7CAD1CD25B0E0063ADC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3D7CB61CD25B0E0063ADC8 /* MOFSPickerViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF3D7CA81CD25B0E0063ADC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF3D7C911CD25B0E0063ADC8 /* MOFSPickerView */;
+			targetProxy = BF3D7CA71CD25B0E0063ADC8 /* PBXContainerItemProxy */;
+		};
+		BF3D7CB31CD25B0E0063ADC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF3D7C911CD25B0E0063ADC8 /* MOFSPickerView */;
+			targetProxy = BF3D7CB21CD25B0E0063ADC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF3D7C991CD25B0E0063ADC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF3D7C9A1CD25B0E0063ADC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF3D7C9E1CD25B0E0063ADC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF3D7C9F1CD25B0E0063ADC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF3D7CB81CD25B0E0063ADC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF3D7CB91CD25B0E0063ADC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF3D7CBB1CD25B0E0063ADC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MOFSPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = memoriesofsnows.MOFSPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF3D7CBC1CD25B0E0063ADC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MOFSPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = memoriesofsnows.MOFSPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF3D7CBE1CD25B0E0063ADC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MOFSPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = memoriesofsnows.MOFSPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOFSPickerView.app/MOFSPickerView";
+			};
+			name = Debug;
+		};
+		BF3D7CBF1CD25B0E0063ADC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MOFSPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = memoriesofsnows.MOFSPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOFSPickerView.app/MOFSPickerView";
+			};
+			name = Release;
+		};
+		BF3D7CC11CD25B0E0063ADC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MOFSPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = memoriesofsnows.MOFSPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MOFSPickerView;
+			};
+			name = Debug;
+		};
+		BF3D7CC21CD25B0E0063ADC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MOFSPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = memoriesofsnows.MOFSPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MOFSPickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF3D7C8D1CD25B0E0063ADC8 /* Build configuration list for PBXProject "MOFSPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3D7CB81CD25B0E0063ADC8 /* Debug */,
+				BF3D7CB91CD25B0E0063ADC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3D7CBA1CD25B0E0063ADC8 /* Build configuration list for PBXNativeTarget "MOFSPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3D7CBB1CD25B0E0063ADC8 /* Debug */,
+				BF3D7CBC1CD25B0E0063ADC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF3D7CBD1CD25B0E0063ADC8 /* Build configuration list for PBXNativeTarget "MOFSPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3D7CBE1CD25B0E0063ADC8 /* Debug */,
+				BF3D7CBF1CD25B0E0063ADC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF3D7CC01CD25B0E0063ADC8 /* Build configuration list for PBXNativeTarget "MOFSPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3D7CC11CD25B0E0063ADC8 /* Debug */,
+				BF3D7CC21CD25B0E0063ADC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF3D7C8A1CD25B0E0063ADC8 /* Project object */;
+}
